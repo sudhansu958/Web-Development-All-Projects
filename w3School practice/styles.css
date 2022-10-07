@@ -1,0 +1,122 @@
+body{
+    background: rgb(197, 183, 101) no-repeat url(1.jpg) ;
+    background-position: 300px 230px ;
+    font-size: 90px;
+    margin-left: 0%;
+    
+}
+
+h1{
+    font-size: 100px;
+    border-bottom: 2cm;
+    text-align: center;
+    width: 800px;
+    margin-left:300px;
+    border-color: antiquewhite;
+    border-style: solid;
+    border-width: 10px
+    
+
+}
+div address{
+    font-size: 120px;
+    font-weight: 800;
+    margin-left: 300px;
+    margin-top: 1300px;
+    border-color: aqua;
+    border-top: 10px;
+    border-bottom: 20px;
+    border-style: double;
+    background-color: aliceblue;
+    width: 800px;
+    outline-offset: 20px;
+    outline-width: 100px;
+    outline-color: blueviolet;
+
+
+}
+.roundborder{
+    border:3px;
+    border-color: aqua;
+    /*we can make rounded border by adding border-radius tag*/
+    border-radius: 15px;
+    /* to make the border
+    double line we are useing below tag*/
+    border-style: double;
+    /*max-width is used to set the border size here*/
+    max-width: 1300px;
+    /*here height is used to set the height of 
+    the border */
+    height: 100px;
+    font-size: 100px;
+    font-weight: 400;
+    /*here margin-left gives it a displacement of 300px*/
+    margin-left: 300px;
+    outline-width: 10px;
+    outline-color: red;
+    outline-style: solid;
+    outline-offset: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 50px;
+    
+}
+
+.demo{
+    font-size: 60px;
+    border: 2px;
+    border-color: aqua;
+    margin-left: 300px;
+    margin-bottom:100px ;
+    padding:0%;
+    
+}
+.myimage{
+    font-weight: 400;
+    font-size: 80px;
+    border: 2px;
+    padding: 10px;
+   
+}
+/* The bulb image section */
+.mage{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+/*Test Formatting Section */
+.para{
+    text-align: justify;
+    margin-left:200px;
+    border: 2px solid;
+    border-width:2px;
+    margin-right: 500px;
+    margin-bottom: 500px;
+    max-width: 1200px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    /*here text-indent is used to give
+    space for the first line of the 
+    paragraph */
+    text-indent: 150px;
+}
+.try{
+    text-transform: capitalize;
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-left: 200px;
+    margin-bottom:0;
+    /* give a underline we use text-decoration-line */
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    /* to givr the underline dotted we use
+    text-decoration-style:dotted; */
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
+    /* To remove the text decoration */
+   /* text-decoration: none;*/
+
+    
+}
+.letter{
+    
+}

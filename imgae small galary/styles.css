@@ -1,0 +1,27 @@
+.photo{
+    font-weight: 800;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width:300px;
+    height:40px;
+    margin:20px auto;
+}
+.line{
+    border-bottom: 5px solid yellow;
+    width: 300px;
+    margin:auto;
+}
+.img{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 20px;
+    justify-content: center;
+    margin:0 200px;
+}
+div img{
+    margin:20px auto;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    padding: 20px;
+}
