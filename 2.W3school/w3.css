@@ -1,3 +1,48 @@
 body{
     background-color: bisque;
 }
+header{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+h1,h2,p{
+    margin-top: 0;
+    text-align: center;
+    color:white;
+    
+}
+.hi{
+    height:100px;
+    width: 300px;
+}
+a:link{
+    color:green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:aqua;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+    background-color: transparent;
+    text-decoration: none;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+    padding:4px;
+}
+head1{
+    color:black;
+}
